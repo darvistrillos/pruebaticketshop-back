@@ -1,0 +1,38 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "L5 OpenApi",
+        "description": "L5 Swagger OpenApi - TicketShop",
+        "contact": {
+            "email": "darvistrillosariza@gmail.com"
+        },
+        "license": {
+            "name": "Apache 2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
+        },
+        "version": "1.0.0",
+        "x-logo": {
+            "url": "https://via.placeholder.com/190x90.png?text=L5-Swagger"
+        }
+    },
+    "paths": {
+        "/api/v1/productos": {
+            "get": {
+                "tags": [
+                    "productos"
+                ],
+                "summary": "Mostrar el listado de productos",
+                "description": "Display a listing of the resource.\nMostramos el listado de los regitros solicitados.",
+                "operationId": "9c9093ddf919d03b4ee62be0da878ad5",
+                "responses": {
+                    "200": {
+                        "description": "Mostrar todos los productos."
+                    },
+                    "default": {
+                        "description": "Ha ocurrido un error."
+                    }
+                }
+            }
+        }
+    }
+}
